@@ -1,0 +1,19 @@
+.variable {
+  font-size: large;
+}
+
+.text {
+  font-size: medium;
+}
+
+.loader {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.couleur {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
