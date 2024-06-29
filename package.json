@@ -1,0 +1,19 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "restaurants ohmyfood",
+  "main": "index.js",
+  "scripts": {
+    "sass": "npx sass --watch ./sass/style.scss:./assets/style.css"
+  },
+  "keywords": [
+    "sass",
+    "html",
+    "css"
+  ],
+  "author": "myriam",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.77.6"
+  }
+}

@@ -1,0 +1,2 @@
+pour lancer le projet il faut ecrire le script suivant dans le terminal
+npm run sass
