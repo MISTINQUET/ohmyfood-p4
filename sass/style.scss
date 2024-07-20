@@ -1,17 +1,222 @@
 @import "./variables.scss";
 
+.body{
+    font-family: roboto;
+    font-weight: 200;
+    display: flex;
+    
+}
+.header{
+    background-color: white;
+    font-family: shrikhand;
+    display: flex;
+  justify-content:center;
+    height: 80px;
+      }
+.header-headerlogo{
+    width: 173px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
 
-
-
-.loader { 
-width: 20px;
-height: 20px;
-border-radius: 50%;
+.localisation{
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+    
+.localisation-icon{
+    width: 12px;
+    height: 16px;
+    color: black;
+    
+}
+section.banniere{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f6f6f6b8;
+    padding: 30px;
+       }
+.banniere-bouton{
+            background-image: linear-gradient(0deg, #ff79da, #9356dc );
+           padding:    10px ;
+border: 0px ;
+border-radius: 50px;
+color: white;
+border-style: solid
+}
+h2{
+    display: flex;
+       font-family :roboto;
+                font-size: 21px;
+                color: #000000, ;
+        align-items: center;
+}
+h3{
+    display: flex;
+    font-size: 14px;
+    font-weight: 200;
+               width: 235px;
+        height: 64px;
+text-align: left;
 
 }
-.couleur{
-    color:red
+.cards img{
+           
+width: 100%;
+    height: 192px;
+    object-fit: cover;
+   border-top-left-radius: 20px; 
+    border-top-right-radius: 20px;
 }
-header{
+ footer{
+    
+    background-color: #000000;
     width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
 }
+
+.footer-logo{
+    color: #F6F6F6;
+    display: flex;
+    font-size: larger;
+}
+a{
+    display: flex;
+        flex-direction: row;
+        color:white;
+gap: 10px;
+}
+.card-title{
+font-weight:bold; 
+
+}
+section.fonctionnement{
+    display: flex;
+    flex-direction: column;
+}
+div.index{
+    margin: 1rem 0 1rem 0.75rem;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
+    border-radius: 1.25rem;
+    background-color: #f6f6f6;
+    width: 100%;
+    max-height: 67px;
+}
+.violet{
+    width: 24px;
+    height: 24px;
+    background-color: #9356dc;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 0;
+    
+}
+
+ mobile-screen button{
+    width: 13px;
+height: 19px;
+}
+h4{
+    display: flex;
+    align-items: center;
+    width: 80%;
+   font-size: 18px;
+    
+}
+.material-icons{
+    font-family: material-icons;
+    display: inline-flex;
+}
+.fas.fa-mobile-screen-button:before{
+    font-size: 10px;
+    width: 169px;
+    height: 23px;
+    background-color: #F6F6F6;
+    border-radius: 15px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+    
+.fas.fa-list-ul{
+    font-size: 15px;
+   
+    
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.fas.fa-store{
+    font-size: 15px;
+  
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+p{
+    width: 211px;
+    height: 16px;
+}
+.card-badge{
+    width: 80px;
+    height: 29px;
+    background-color: aquamarine;
+    display: flex;
+    color: #3B8468;
+    font-weight: 500;
+     right: 3%;
+  position: absolute;
+top:13px;
+align-items: center;
+justify-content: center;
+
+    }
+    .position{
+transform: translateY(20%);
+
+    }
+.container{
+display: flex;
+flex-direction: column;
+}
+.cards{
+position: relative;
+}
+span.fas.fa-ustensil{
+   font-size: 10px; 
+   display: flex;
+color: #F6F6F6;
+   }
+       
+
+
+
+
+
+
+
+
+
+
+
+
