@@ -8,24 +8,13 @@
 
   <link rel="stylesheet" href="./assets/style.css">
   <script src="https://kit.fontawesome.com/1bb0677a28.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/" >
-  
+
 </head>
 
-<body>
-  <div class="loader">
-    <div class="loader-itemcontainer">
-      <div class="item1"></div>
-      <div class="item2"></div>
-      <div class="item3"></div>
-    </div>
-  </div>
-  <header>
-    <div class="header">
-      <h1 class="header-logo">ohmyfood</h1>
-    </div>
-  </header>
+<body class="menu">
+
   <main>
+    <h1>ohmyfood</h1>
     <div class="localisation">
       <i class=" fas fa-map-marker-alt">
       </i>
@@ -34,96 +23,125 @@
     <section class="banniere">
       <h2 class="banniere-title">reservez le menu qui vous convient</h2>
       <h3 class="banniere-subtitle">decouvrez des restaurants d 'exception selectionne par nos soin</h3>
-      <p class="banniere-bouton">explorez nos restaurants</p>
+      <a class="banniere-bouton" href="#restaurant">explorer les restaurants</a>
     </section>
     <section class="fonctionnement">
       <h4 class="tuto- title">fonctionnement</h4>
       <div class="index">
-        <a class="violet"><span>1</span></a>
-
+        <a class="violet">1</a>
         <i class="fas fa-mobile-screen button"></i>
         <p>choisissez votre restaurant</p>
       </div>
       <div class="index">
-        <a class="violet"><span>2</span></a>
+        <a class="violet">2</a>
+
         <i class="fas fa-list-ul"></i>
         <p>composez votre menu</p>
       </div>
       <div class="index">
-        <a class="violet"><span>3</span></a>
-
+        <a class="violet">3</a>
         <i class="fas fa-store"></i>
         <p>degustez au restaurant</p>
       </div>
-
-
-
-
     </section>
-    <section class="restaurants">
-      <div class="container">
-        <h2 class="restaurant-title">restaurant</h2>
-        <div class="cards">
-          <div class="card-badge">Nouveau</div>
-          <img src="./assets/images/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="la la-palette-du-gout">
-        </div>
-        <div class="card-title"> la-palette-du-gout</div>
-        <p>menilmontant</p>
-        <div class="card-heart">
-          <i class="fas fa-heart card__heart--regular"></i>
-          <i class="fas fa-heart card__heart--solid"></i>
-        </div>
-      </div>
-      <div class="container">
-        <div class="cards">
-          <div class="card-badge position">Nouveau</div>
+    <div class="container">
+      <div class="cards">
+        <div class="card-badge position">Nouveau</div>
+        <a href="../restaurants/la-palette-du-gout.html">
+          <img src="./assets/images/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="jay">
+          <div class="card-title">la-palette-du-gout</div>
+          <div class="paragraphe">
+            <p>Melimontant</p>
+           <div class="card-heart">
+                      <input type="checkbox" id="like-toggle">
+            <label for="like-toggle">
+              <i class="far fa-solid fa-heart" ></i>
+              
+            
+           
+            
+            </label>
+           </div>
+            </div>
+        </a>
+          </div>
+              </div>
+                
+    <div class="container">
+      <div class="cards">
+        <div class="card-badge position">Nouveau</div>
+        <a href="../restaurants/la-note-enchantée.html">
           <img src="./assets/images/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="la-note-enchantée">
-
           <div class="card-title">la-note-enchantee</div>
-          <p>charonne</p>
-        </div>
+          <div class="paragraphe">
+            <p>charonne</p>
+            <div class="card-heart">
+              <input type="checkbox" id="like-toggle">
+              <label for="like-toggle"></label>
+              <i class="far fa-solid fa-heart"></i>
+                            
+             </div>
+          </div>
+        </a>
       </div>
+    </div>
+    
+
+    <div class="container">
+    <div class="cards">
+
+    <a href="../restaurants/a-la-francaise.html">
+      <img src="./assets/images/stil-u2Lp8tXIcjw-unsplash.jpg" alt=" a la francaise">
+      <div class="card-title">a-la-francaise</div>
+      <p>cite rouge</p>
       <div class="card-heart">
-        <i class="fas fa-heart card__heart"></i>
+        <input type="checkbox" id="like-toggle" >
+        <label for="like-toggle">
+        <i class="far fa-solid fa-heart"></i>
+        
+        </label>
       </div>
-      <div class="container">
-        <div class="cards">
+    </a>
+    </div>
+       </div>
+    
+    <div class="cards">
+      <a href="../restaurants/le-delice-des-sens.html">
+        <img src="/assets/images/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="le delice des sens">
+        <i class="card-title">le-delice-des-sens</i>
+        <div class="link-restaurant"></div>
+        <i class="le le-delice-des-sens.html"></i>
+        <p>folie mericourt</p>
+      </a>
+    </div>
+      <div class="card-heart">
+        <input type="checkbox" id="like-toggle">
+        <label for="like-toggle">
+        <i class="far fa-solid fa-heart"></i>
+        </label>
+       </div>
 
-          <img src="./assets/images/stil-u2Lp8tXIcjw-unsplash.jpg" alt=" a la francaise">
 
-          <div class="card-title">a la francaise</div>
-          <p>cite rouge</p>
-        </div>
-        <div class="card-heart">
-          <i class="fas fa-heart card__heart--regular"></i>
-          <i class="fas fa-heart card__heart--solid"></i>
-        </div>
-      </div>
-      <div class="container">
-        <div class="cards">
 
-          <img src="/assets/images/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="le delice des sens">
 
-          <div class="card-title">le delice des sens</div>
-          <p>folie mericourt</p>
-        </div>
-        <div class="card-heart">
-          <i class="fas fa-heart card__heart--regular">favorite</i>
-        </div>
-      </div>
-    </section>
+
+
+
+
+
+
 
   </main>
-  <footer>
-    <footer class="footer">
 
-    <h5 class="footer-logo">ohmyfood</h5>  
+  <footer class="footer">
+
+    <h5 class="footer-logo">ohmyfood</h5>
     <ul>
       <li><a href="#"><i class="fas fa-utensils"></i> Proposer un restaurant</a></li>
       <li><a href="#"><i class="fas fa-hands-helping"></i> Devenir partenaire</a></li>
       <li><a href="#">Mentions légales</a></li>
       <li><a href="mailto:ohmyfood-contact@gmail.com">Contact</a></li>
-  </ul>
+    </ul>
   </footer>
 </body>
 
