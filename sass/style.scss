@@ -70,7 +70,9 @@ div.bloc-articles {
     flex-direction: column;
     gap: 20px;
     margin: 20px 0px;
-    animation-delay: 3s;
+    animation-delay: 2s;
+    width: 993px;
+
 }
 
 articles.entrées {
@@ -342,16 +344,9 @@ img {
     color: #000000;
 }
 
-
-
-
-
-
 div.font {
     
-    color: #99E2D0;
-    background-color: #fff;
-    width: 22px;
+            width: 22px;
     line-height: 21px;
 }
 
@@ -392,8 +387,9 @@ article.entrées {
     position: relative;
         padding: 0 45;
     background-color: white;
-    animation: fadeIn 0.5s ease forwards;
-    margin: 22px;
+   
+    margin: 28px;
+    
 }
 
 div.menu-category-plats{
@@ -423,24 +419,29 @@ article.plat {
 article.dessert {
     background-color: white;
     border-radius: 15px;
-    width: 880px;
-    height:63px;
-
+    width: 108%;
+    height: 68px;
 
 }
-span{
+span.plats{
 position: absolute;
 left: 828px;
 display: flex;
 justify-content: end;
 }
-span.far.fa-heart{
-    width: 32px;
-    height: 32px;
-    left: 336px;
-    top: -56px;
+i.fa-regular.fa-heart{
+   
+    left: -98px;
+    top: -29px;
+    display: flex;
+        transition-property: all;
+    transition-duration: 2s;
+             position: relative;
+                        cursor: pointer;
+     
 }
 
+ 
 
 div.commander-btn {
     color: white;
@@ -472,61 +473,112 @@ i.fa-solid.fa-arrow-left-long {
     color: #000000;
 }
 
-div.choix{
+div.choix:hover {
     display: flex;
+       border-radius: 0px 20px 20px 0px;
+    height: auto;
+    width: 0;
    
-    border-radius: 0px 20px 20px 0px;
-    transform: scaleX(0);
     -webkit-box-pack: center;
     color: white;
     background-color: aquamarine;
-    transition: transform 500ms, -webkit-transform 500ms;
-    transform-origin: right;
-    height: 90px;
     align-items: center;
-    cursor: pointer;
-    width: 24px;
-    height: 23px;
+    justify-content: center;
+    
+   transition:transform 200ms ease-in-out;
+    }
+              
+         
+         
+          i.fa-solid.fa-heart{
+            transform: translateX(-16px);
+            cursor: pointer;
+          transition-property: all;            transition-duration: 2s;
+                     position:relative;
+          background-clip: text;
+        color:transparent;
+           left: -98px;
+           top: -29px;
+          
+               }      
+               i.fa-solid.fa-heart:hover{
+                color: #ff65a3;
+               }
+  
+div.card-heart:hover {
+    display: flex;
+    flex-direction: row;
+    top: -4px;
+    left: 796px;
+    color: #000000;
+    transition:transform 200ms ease-in-out;
+    
 }
-i.far.fa-heart::before{
+.card-heart {
+    position: relative;
     display: inline-block;
-    transition: all 0.3s ease;
-    background: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    top: -21px;
-    left: -117px;
+    cursor: pointer;
 }
+a {
+    flex-direction: row;
+    color: #F6F6F6;
+}
+   
+i.fa-regular.fa-check:hover{
+    transition: transform 200ms ease-in-out;
+    transform: scaleX(1.5);
+    position: relative;
+    cursor: pointer;
+    background: aquamarine;
+    height: auto;
+    border-radius: 0 15px 15px 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+   
+   
 .menu.menus-container.entrées{
     animation-delay: 2s;
 }
-   div.choix{
-    height: 100%;
-   } 
+  
    .menu.menus-container.entrées.choix input, .menu.menus-container.plat.choix input,.menu.menus-container.desserts.choix input{
 position: relative;
 top: 24px;
 left: 0;
-display: none;
-
+animation: forwards;
    }
-   i {
-    display: inline-block;
-    transition: all 0.3s ease;
-    background: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-  }
- 
 
-   
-   
+span.dessert2{
+    display: flex;
+    position: relative;
+    right: -563px;
+    top: -81px;
+}
+span.dessert3{
+    display: flex;
+    position: relative;
+    right: -549px;}
 
+i#heartMenu{left: 142%;
+    top: -46px;
+    display: flex;
+        transition-property: all;
+    transition-duration: 2s;
+             position: relative;
+                        cursor: pointer;
 
+}
+i#heartMenuSolid{
+    transform: translateX(-16px);
+    cursor: pointer;
+  transition-property: all;            transition-duration: 2s;
+             position:relative;
+  background-clip: text;
+color:transparent;
+   left: -98px;
+   top: -29px;
+  
 
-
-   
-   
-
-
-   
+}
